@@ -4,18 +4,12 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/global.js"></script>
   </head>
-  <body>
+  <body onload="getresult();">
 
-    <ul>
-      <% jsobj.results.forEach( function(job) { %>
-  <li>
-    <a href="#">
-    <h2><%= job.jobtitle %></h2>
-    <p><%- job.snippet %></p>
-    </a>
-  </li>
-      <% }) %>
-      </ul>
+
+
   </body>
 </html>

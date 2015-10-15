@@ -28,7 +28,7 @@ ul,li{
 }
 ul{
   overflow:hidden;
-  padding:3em;
+  padding:0.1em;
 }
 ul li a{
   text-decoration:none;
