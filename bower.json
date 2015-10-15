@@ -1,0 +1,22 @@
+{
+  "name": "codeshark",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bhanu2507/codeshark",
+  "authors": [
+    "Bhanu Mokkala <bhanureddy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
