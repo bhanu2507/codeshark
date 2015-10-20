@@ -2,17 +2,34 @@
 <html>
   <head>
     <title><%= title %></title>
+
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
     <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="/javascripts/global.js"></script>
   </head>
   <body onload="getresult();">
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bootstrap theme</a>
+      </div>
+    </div>
+  </nav>
 
-<div class="loader" id="loaderDiv">Loading...</div>
   <input type="hidden" id="loadCount" value="0" />
-<div id="header">
+<div id="header1">
 <ul id="displayJobs"></ul>
 </div>
+  <div class="loader" id="loaderDiv">Loading...</div>
   </body>
 </html>

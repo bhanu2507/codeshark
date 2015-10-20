@@ -59,7 +59,7 @@ function getresult() {
                                 //items.push('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                                // var litem = $('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                                // $('#header ul').append(litem).filter(':last').hide().fadeIn(500);
-                                $('#header ul').append('<li style= display:none;><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
+                                $('#header1 ul').append('<li style= display:none;><a href="'+ v.url +'"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                                //alert('e');
                                 //litem.fadeIn(2000);
                                 //$('#header ul').append('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>').children(':last').hide().fadeIn(1000);
@@ -72,7 +72,7 @@ function getresult() {
                 function animateLI($li) {
 //alert($li.show());
                     //$li.show();
-                    $li.fadeIn(500).promise().done(function () {
+                    $li.fadeIn(250).promise().done(function () {
                         if(!$li.next().length) return;
                         animateLI($li.next());
                 });
