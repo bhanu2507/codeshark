@@ -23,10 +23,10 @@ h2,p{
   font-size:100%;
   font-weight:normal;
 }
-ul,li{
+ul.displayjobs,li.djobsli{
   list-style:none;
 }
-ul{
+ul.displayjobs{
   overflow:hidden;
   padding:3em;
 }
@@ -42,23 +42,23 @@ ul li a{
   padding:1em;
 }
 */
-ul li{
+ul.displayjobs li.djobsli{
   margin:1em;
   float:left;
   width:200px;
   height:200px;
 }
-ul li h2{
+ul.displayjobs li.djobsli h2{
 /*  font-size:90%; */
   font-weight:bold;
   padding-bottom:1px;
 }
-ul li p{
+ul.displayjobs li.djobsli p{
   font-family:"Reenie Beanie",arial,sans-serif;
   font-size:110%;
 }
 
-ul li a{
+ul.displayjobs li.djobsli a.djobslink{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -71,27 +71,27 @@ ul li a{
   box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
-ul li a{
+ul.displayjobs li.djobsli a.djobslink{
   -webkit-transform:rotate(-6deg);
   -o-transform:rotate(-6deg);
   -moz-transform:rotate(-6deg);
 }
 
-ul li:nth-child(even) a{
+ul.displayjobs li.djobsli:nth-child(even) a.djobslink{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
   -moz-transform:rotate(4deg);
   position:relative;
   top:5px;
 }
-ul li:nth-child(3n) a{
+ul.displayjobs li.djobsli:nth-child(3n) a.djobslink{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
   -moz-transform:rotate(-3deg);
   position:relative;
   top:-5px;
 }
-ul li:nth-child(5n) a{
+ul.displayjobs li.djobsli:nth-child(5n) a.djobslink{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
   -moz-transform:rotate(5deg);
@@ -99,7 +99,7 @@ ul li:nth-child(5n) a{
   top:-10px;
 }
 
-ul li a:hover,ul li a:focus{
+ul.displayjobs li.djobsli a.djobslink:hover,ul.displayjobs li.djobsli a.djobslink:focus{
   text-decoration:none;
   color:#000;
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -112,7 +112,7 @@ ul li a:hover,ul li a:focus{
   z-index:5;
 }
 
-ul li:nth-child(even) a:hover,ul li:nth-child(even) a:focus{
+ul.displayjobs li.djobsli:nth-child(even) a.djobslink:hover,ul.displayjobs li.djobsli:nth-child(even) a.djobslink:focus{
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -123,7 +123,7 @@ ul li:nth-child(even) a:hover,ul li:nth-child(even) a:focus{
   z-index:5;
 }
 
-ul li:nth-child(3n) a:hover,ul li:nth-child(3n) a:focus{
+ul.displayjobs li.djobsli:nth-child(3n) a.djobslink:hover,ul.displayjobs li.djobsli:nth-child(3n) a.djobslink:focus{
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -134,7 +134,7 @@ ul li:nth-child(3n) a:hover,ul li:nth-child(3n) a:focus{
   z-index:5;
 }
 
-ul li a{
+ul.displayjobs li.djobsli a.djobslink{
   text-decoration:none;
   color:#000;
   background:#ffc;
@@ -150,7 +150,7 @@ ul li a{
   -webkit-transition:-webkit-transform .15s linear;
 }
 
-ul li:nth-child(even) a{
+ul.displayjobs li.djobsli:nth-child(even) a.djobslink{
   text-decoration:none;
   color:#000;
   background:#cfc;
@@ -166,7 +166,7 @@ ul li:nth-child(even) a{
   -webkit-transition:-webkit-transform .15s linear;
 }
 
-ul li:nth-child(3n) a{
+ul.displayjobs li.djobsli:nth-child(3n) a.djobslink{
   text-decoration:none;
   color:#000;
   background:#ccf;

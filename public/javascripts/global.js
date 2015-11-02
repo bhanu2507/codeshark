@@ -39,7 +39,7 @@ function getresult() {
                         //items.push('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                         // var litem = $('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                         // $('#header ul').append(litem).filter(':last').hide().fadeIn(500);
-                        $('#header1 ul').append('<li style= display:none;><a href="'+ v.url +'"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
+                        $('#header1 ul').append('<li class="djobsli" style= display:none;><a class="djobslink" href="'+ v.url +'"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>');
                         //alert('e');
                         //litem.fadeIn(2000);
                         //$('#header ul').append('<li><a href="#"><h2>' + v.jobtitle + '</h2><p>' + v.snippet + '</p></a></li>').children(':last').hide().fadeIn(1000);
